@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+	<title>Game Query Super Mario</title>
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+
+	<!-- Optional theme -->
+	<link rel="stylesheet" href="css/bootstrap-theme.min.css">
+	<link rel="stylesheet" type="text/css" href="css/menuCanvas.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+
+	<!-- Latest compiled and minified JavaScript -->
+	<script src="js/bootstrap.min.js"></script>
+	<script src="menuCanvas.js"></script>
+	<script src="js/jqueryGamequery.js"></script>
+</head>
+<body>
+<div id="wrapper">
+
+        <!-- Sidebar -->
+        <div id="sidebar-wrapper">
+            <nav id="spy">
+                <ul class="sidebar-nav nav">
+                    <li class="sidebar-brand">
+                        <a href="#home"><span class="fa fa-home solo">Home</span></a>
+                    </li>
+                    <li>
+                        <a href="#anch1" data-scroll>
+                            <span class="fa fa-anchor solo">Anchor 1</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#anch2" data-scroll>
+                            <span class="fa fa-anchor solo">Anchor 2</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#anch3" data-scroll>
+                            <span class="fa fa-anchor solo">Anchor 3</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#anch4" data-scroll>
+                            <span class="fa fa-anchor solo">Anchor 4</span>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+
+        <!-- Page content -->
+        <div id="page-content-wrapper">
+            <div class="content-header">
+                <h1 id="home">
+                    <a id="menu-toggle" href="#" class="glyphicon glyphicon-align-justify btn-menu toggle">
+                        <i class="fa fa-bars"></i>
+                    </a>
+                    Planete DisneyMario
+                </h1>
+            </div>
+
+            <div class="page-content inset" data-spy="scroll" data-target="#spy">
+                <div class="row">
+                            <!-- Controls -->
+                            <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+							  <!-- Indicators -->
+							  <ol class="carousel-indicators">
+							    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+							    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+							    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+							  </ol>
+
+							  <!-- Wrapper for slides -->
+							  <div class="carousel-inner" role="listbox">
+							    <div class="item active">
+							      <img src="images/img1.jpg" alt="Mario Dislande" height="510">
+							      <div class="carousel-caption">
+							        Disneyland Mario
+							      </div>
+							    </div>
+							    <div class="item">
+							      <img src="images/img2.jpg" alt="Mario Dislande" height="510">
+							      <div class="carousel-caption">
+							         Affiche  Mario
+							      </div>
+							    </div>
+							    <div class="item">
+							      <img src="images/img3.jpg" alt="Mario Dislande" height="510">
+							      <div class="carousel-caption">
+							         Affiche  Mario
+							      </div>
+							    </div>
+							    ...
+							  </div>
+
+							  <!-- Controls -->
+							  <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+							    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+							    <span class="sr-only">Previous</span>
+							  </a>
+							  <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+							    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+							    <span class="sr-only">Next</span>
+							  </a>
+							</div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-12 col-sm-6 col-md-8">
+                        <legend id="anch1">Anchor 1</legend>
+                        <!--<p>
+                        	<div id="mon_canvas">
+                        		<img id="mario" src="images/mario.gif">
+                        		<img id="#background" src="images/background1.gif">
+                        		<img id="#background" src="images/background2.gif">
+                        		<img id="#background" src="images/background3.gif"> 
+                        </p>--> 
+
+
+                        		<div id="container">
+									<div id="map"><div class="smile s1">Frappe-moi,j'suis un lien !</div></div>
+									<div id="map"></div>
+									<img id="perso" src="images/mario.gif">
+									 <div class="perso2"></div>
+									<div class="case c1"></div>
+									
+								</div>            
+                        	</div>
+                    </div>
+                   
+                </div>
+
+                <div class="navbar navbar-default navbar-static-bottom">
+                    <p class="navbar-text pull-left">
+                        Built By Mouna YACOUB SALEH
+                    </p>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="js/bootstrap.min.js"></script>
+<script src="js/menuCanvas.js"></script>
+<script src="js/jqueryGamequery.js"></script>
+</body>
+</html>

@@ -1,0 +1,64 @@
+/*#mon_canvas{
+	background: #e95325 url(../images/mario-gif-animated.gif) no-repeat;
+	height: 525px;
+	width: 850px;
+}
+.col-xs-12 img{
+	position: relative;
+}*/
+
+
+#container {
+	    margin:0 auto;
+		height: 525px;
+		width: 850px;
+	    position:relative;
+	    overflow:hidden;
+	}
+	#perso {
+	    position:absolute;
+		width:30px;
+		height:44px;
+		top:440px;
+		left:300px;
+		background:url(../images/mario.gif) 0px 0px no-repeat;
+		overflow:hidden;
+
+	}
+	 #map{
+	 	height: 525px;
+		width: 1400px;
+		position:relative;
+		display: inline;
+	 	float: left;
+	 	background: url(../images/bg.jpg) center bottom no-repeat;
+
+		 }
+	 }
+	.case {
+	    position:absolute;
+	    width:43px;
+	    height:35px;
+	    background:url(../images/case.gif) no-repeat;
+	    top:268px;
+	}
+	.c1 { left:461px; }
+
+	#legend {
+	    position:absolute;
+	    width:147px;
+	    height:97px;
+	    background:url(../images/bg3.jpg) no-repeat;
+	    top:20px;
+	    left:20px;
+	}
+	.smile {
+	    width:95px;
+	    height:51px;
+	    padding-top:50px;
+	    text-align:center;
+	    position:absolute;
+	    background:url(../images/smile.gif) no-repeat;
+	    top:150px;}
+
+	.s1 { left:435px; }
